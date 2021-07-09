@@ -76,7 +76,10 @@ const App = () => {
 
             data.append("file", file);
 
-            axios.post("http://localhost:8080/schedulePlanning/parse", data, prepareHeadersMultipart())
+            //var URL = "http://localhost:8080/schedulePlanning/parse";
+            var URL = "https://poli-tool-backend.herokuapp.com/schedulePlanning/parse";
+
+            axios.post(URL, data, prepareHeadersMultipart())
             .then(res => {
                 console.log(res);
                 setImportLoading(false);
