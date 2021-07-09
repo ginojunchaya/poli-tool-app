@@ -1,0 +1,13 @@
+.action {
+    background: #23468C;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0px solid transparent;
+}
+
+.actionAdd {
+    background: #23468C;
+    border-radius: 50%;
+    border: 0px solid transparent;    
+}

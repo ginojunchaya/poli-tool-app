@@ -1,0 +1,29 @@
+.content {
+    padding: 1em 5em 1em 5em;
+    text-align: center;
+}
+
+.actions {
+    padding: 1em;
+    display: flex;
+}
+
+.action {
+    background: #23468C;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0px solid transparent;
+}
+
+.actionContainer {
+    text-align: center;
+    margin-left: .7em;
+}
+
+.actionContainer p {
+    font-size: 12px;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
